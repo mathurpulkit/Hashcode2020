@@ -6,8 +6,8 @@
 <h2> Solution Implemented by Us: </h2>
 <ol>
 <li>The code is designed only to read one library file. So you will have to recompile the file six times(for a total of six input files). Just change the input and output file name. It is at the starting of the code as a preprocessor directive. </li>
-<li>The code read all book data and stored it in an array of structure of books. </li>
-<li>The code then read all the libraries and stored the information in an array of class library.</li>
+<li>The code reads all book data and stored it in an array of structure of books. </li>
+<li>The code then reads all the libraries and stored the information in an array of class library.</li>
 <li>Class library then uses sort and score methods to get the scores of each library.</li>
 <li>The library with the best score is selected and its id(location in array) is stored in an array called libord(which stores the order in which libraries are signed up).</li>
 <li>The scores of the book which will be scanned from the first library are set to zero(using dupkill function in class library).</li>
