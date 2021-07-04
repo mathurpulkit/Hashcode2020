@@ -27,5 +27,12 @@
 <li>The program doesn't have any known bugs and performs well on the given dataset by Google.</li>
 <li>The program was developed and tested on Ubuntu 19 VM on Windows 10. Processor: Intel i7-8750H.</li>
 </ol>
+<h2>Contributors</h2>
+  <ul>
+    <li><a href="https://github.com/mathurpulkit">Pulkit Mathur</li>
+    <li><a href="https://github.com/RiVer2000">Rishabh Verma</li>
+    <li><a href="https://github.com/SajalSingh2001">Sajal Singh</li>
+    <li><a href="https://github.com/ak2106-47">Apoorva Kumar</li>
+  </ul>
 </HTML>
 
