@@ -15,7 +15,7 @@ Most of this code was written during the Round, but the main logic portion was w
     - The actual score(on the basis of which libraries are ordered) is then calculated by dividing the raw scores by the number of days required to sign-up the library.
     - This method is used because once the library is signed up, it isn't a liability anymore. But during the signup process, it is a liability and the libraries taking too much time should be signed up last for maximum score. You can signup multiple libraries with lesser raw scores during the time instead of signing up libraries with high signing time. The combination of scores of these multiple libraries will exceed one single big library</li>
     - We used the formula raw_score/signup_days as comparison and scoring of libraries. You can use a different formula such as raw_score/(signup_days)^2 OR raw_score/(signup_days)^0.5 OR raw_score/log(signup_days) OR vary the power accordingly to give more or less weightage to the number of signup days.
-    - Some input files will give a slightly better score if we give slightly more/less weightage to number of signup days(around power of 0.875 or 1.125).
+    - Some input files will give a slightly better score if we give slightly more or less weightage to number of signup days(around power of 0.875 or 1.125).
 
 1. Then the new best library is stored at libord[1]. Then the scores of the books scanned from it is set to zero.
 1. The process is repeated until the number of days left is zero.
